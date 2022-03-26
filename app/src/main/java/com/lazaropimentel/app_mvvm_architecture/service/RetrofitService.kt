@@ -8,7 +8,7 @@ import retrofit2.http.GET
 
 interface RetrofitService {
     @GET("video.json")
-    fun getAllLives(): Call<List<Video>>
+    fun getAllVideos(): Call<List<Video>>
 
     companion object {
         private val retrofitService : RetrofitService by lazy {
@@ -18,6 +18,10 @@ interface RetrofitService {
                 .build()
 
             retrofit.create(RetrofitService::class.java)
+        }
+
+        fun getInstance() : RetrofitService{
+            return  retrofitService
         }
     }
 }
