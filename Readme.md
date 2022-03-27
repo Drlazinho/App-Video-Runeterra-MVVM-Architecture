@@ -52,7 +52,7 @@ A aplicação foi desenvolvida com objetivo de aplicar os conceitos de MVVM. O a
 
 ### Resultado
 
-<img src="C:/Users/User/Desktop/Aulas e Práticas de Desenvolvimento/Kotlin/resultado-app-mvvm.jpg"/>
+<img src="resultado-app-mvvm.jpg" width="40%"/>
 
 
 
